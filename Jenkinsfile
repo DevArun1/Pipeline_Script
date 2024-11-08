@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/ARUNMAHANWAR/Multi-Tier-With-Database.git'
+                git branch: 'main', url: 'https://github.com/DevArun1/Multi-Tier-With-Database.git'
             }
         }
         
